@@ -1,0 +1,15 @@
+{
+  "name": "planar",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo '[TODO] insert root 'dev' command if applicable",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "@tsconfig/strictest": "^2.0.6",
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.11.0"
+}

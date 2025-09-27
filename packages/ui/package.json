@@ -1,0 +1,10 @@
+{
+  "name": "@planar/ui",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo '[TODO] insert ui 'dev' command if applicable",
+    "typecheck": "tsc --noEmit"
+  },
+  "packageManager": "pnpm@10.11.0"
+}
