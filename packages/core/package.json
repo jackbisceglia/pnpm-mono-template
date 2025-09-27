@@ -2,7 +2,9 @@
   "name": "@pnpm-mono-template/core",
   "version": "0.0.0",
   "type": "module",
-  "private": true,
+  "exports": {
+    "./*": "./src/*.ts"
+  },
   "scripts": {
     "dev": "echo '[TODO] insert core 'dev' command if applicable",
     "typecheck": "tsc --noEmit",
