@@ -1,10 +1,12 @@
 {
-  "name": "@planar/core",
+  "name": "@pnpm-mono-template/core",
   "version": "0.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "echo '[TODO] insert core 'dev' command if applicable",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
   },
   "packageManager": "pnpm@10.11.0"
 }

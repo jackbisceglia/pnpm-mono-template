@@ -1,10 +1,11 @@
 {
-  "name": "@planar/ui",
+  "name": "@pnpm-mono-template/ui",
   "version": "0.0.0",
-  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "echo '[TODO] insert ui 'dev' command if applicable",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
   },
   "packageManager": "pnpm@10.11.0"
 }
