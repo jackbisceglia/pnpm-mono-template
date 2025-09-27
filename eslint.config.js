@@ -8,7 +8,7 @@ import { defineConfig } from "eslint/config";
 export default defineConfig(
   eslint.configs.recommended,
   tseslint.configs.strictTypeChecked,
-  tseslint.configs.strictTypeChecked,
+  tseslint.configs.stylisticTypeChecked,
   eslintConfigPrettier,
   {
     languageOptions: {
@@ -19,6 +19,7 @@ export default defineConfig(
     },
     rules: {
       "@typescript-eslint/no-namespace": "off",
+      "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     },
   },
 );

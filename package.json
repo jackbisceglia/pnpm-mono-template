@@ -6,6 +6,7 @@
     "dev": "echo '[TODO] insert root 'dev' command if applicable",
     "typecheck": "pnpm -r run typecheck",
     "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format",
     "@core": "pnpm -F @pnpm-mono-template/core",
     "@ui": "pnpm -F @pnpm-mono-template/ui"
   },
