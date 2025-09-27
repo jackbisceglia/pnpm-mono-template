@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "echo '[TODO] insert root 'dev' command if applicable",
     "typecheck": "pnpm -r run typecheck",
-    "lint": "pnpm -r run lint"
+    "lint": "pnpm -r run lint",
+    "@core": "pnpm -F @pnpm-mono-template/core",
+    "@ui": "pnpm -F @pnpm-mono-template/ui"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
